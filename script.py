@@ -1,66 +1,62 @@
+
 class script(object):
-    HELP_TXT = """<b>Hey</b> {}
-    
-<b>Here Is The Help For My Commands.</b>"""
+    HELP_TXT = """<b>ʜᴇʏ</b> {}
 
-    CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
+<b>ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
-<b>⦿ /set_caption - Use This Command To Set Your Caption</b>
-<b>⦿ /see_caption - Use This Command To See Your Caption</b>
-<b>⦿ /del_caption - Use This Command To Delete Your Caption</b>"""
-   
-    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
+    CAPTION_TXT = """<b><u>📝  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴄᴀᴘᴛɪᴏɴ</u></b>
 
-<b>⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....</b>
+<b>⦿ /set_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴛ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>
+<b>⦿ /see_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>
+<b>⦿ /del_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>"""
 
-<b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
-<b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
+    THUMBNAIL_TXT = """<b><u>🖼️  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</u></b>
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> {}
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/RudraMoviez'>Rudra Moviez</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRMBot'>Surya Developer</a>
+<b>⦿ ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sɪᴍᴘʟʏ ʙʏ sᴇɴᴅɪɴɢ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ᴍᴇ....</b>
 
-<b>♻️ Bot Made By :</b> @CallAdminRMBot"""
+<b>⦿ /viewthumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴛʜᴜᴍʙɴᴀɪʟ</b>
+<b>⦿ /delthumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴛʜᴜᴍʙɴᴀɪʟ</b>"""
+
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ :</b> {}
+<b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>Python 3</a>
+<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>🚀 sᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>Heroku</a>
+<b>📢 ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/RudraMoviez'>Rudra Moviez</a>
+<b>🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/CallAdminRMBot'>Surya Developer</a>
+
+<b>♻️ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ :</b> @CallAdminRMBot"""
 
     DONATE_TXT = """
-<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+<b>🥲 ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ 🎁 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 10 ʀs ᴜᴘᴛᴏ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.
 
-<b>🛍 UPI ID:</b> <code>suryabm18@axl</code> 
+<b>🛍 ᴜᴘɪ ɪᴅ:</b> <code>suryabm18@axl</code>
 
-<b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
+<b>📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴅᴏɴᴀᴛɪᴏɴ ᴛᴏ ᴀᴄᴛɪᴠᴀᴛᴇ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</b> """
 
-    ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
+    ADMIN_TXT = """<b><u>🦋 ᴀᴅᴍɪɴ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʜᴇʀᴇ</u></b>
 
-<b>⦿ /users - Use This Command To See Total Users</b>
-<b>⦿ /allids - Use This Command To See All Users IDs</b>
-<b>⦿ /broadcast - Use This Command To Send A Message To Users</b>
-<b>⦿ /warn - Use This Command To Send A Message To A User</b>
-<b>⦿ /resetpower - Use This Command To Reset User Power</b>
-<b>⦿ /ceasepower - Use This Command To Cease User Power</b>
-<b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
-<b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
+<b>⦿ /users - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ᴛᴏᴛᴀʟ ᴜsᴇʀs</b>
+<b>⦿ /allids - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ᴀʟʟ ᴜsᴇʀs ɪᴅs</b>
+<b>⦿ /broadcast - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴜsᴇʀs</b>
+<b>⦿ /warn - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀ ᴜsᴇʀ</b>
+<b>⦿ /resetpower - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʀᴇsᴇᴛ ᴜsᴇʀ ᴘᴏᴡᴇʀ</b>
+<b>⦿ /ceasepower - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄᴇᴀsᴇ ᴜsᴇʀ ᴘᴏᴡᴇʀ</b>
+<b>⦿ /addpremium - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀᴅᴅ ᴘʀᴇᴍɪᴜᴍ ᴛᴏ ᴜsᴇʀs</b>
+<b>⦿ /restart - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄᴀɴᴄᴇʟ ᴀʟʟ ᴘʀᴏᴄᴇss ᴀɴᴅ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</b>"""
 
+    METADATA_TXT = """<b><u>🖼️  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴄᴜsᴛᴏᴍ ᴍᴇᴛᴀᴅᴀᴛᴀ</u></b>
 
-    METADATA_TXT = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
+ғᴏʀ ᴇxᴀᴍᴘʟᴇ :-
 
-For Example :-
+<code>ʙʏ @CallAdminRMBot</code>
 
-<code>By @CallAdminRMBot</code>
-
-💬 For Any Help Contact @CallAdminRMBot
+💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @CallAdminRMBot
 """
 
 
-
-
-
-
-# Jishu Developer 
+# Jishu Developer
 # Don't Remove Credit 🥺
 # Telegram Channel @Madflix_Bots
 # Developer @JishuDeveloper
