@@ -20,8 +20,8 @@ class script(object):
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/RudraMoviez>Rudra Moviez</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRMBot>Surya Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/RudraMoviez'>Rudra Moviez</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRMBot'>Surya Developer</a>
 
 <b>♻️ Bot Made By :</b> @CallAdminRMBot"""
 
