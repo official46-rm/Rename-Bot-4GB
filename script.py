@@ -23,7 +23,7 @@ class script(object):
 <b>📢 Channel :</b> <a href='https://t.me/RudraMoviez>Rudra Moviez</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRMBot>Surya Developer</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @CallAdminRMBot"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
